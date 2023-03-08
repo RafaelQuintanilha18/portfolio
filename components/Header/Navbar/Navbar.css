@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  color: var(--lightWhite);
+  margin: 0;
+  padding-top: 20px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+#btn--download {
+  border-radius: 5px;
+  background-color: #393E46;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin-left: 60px;
+}
+
+.fa-download {
+  margin-left: 50px;
+  font-size: 0.9rem;
+}

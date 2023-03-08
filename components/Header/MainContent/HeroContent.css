@@ -1,0 +1,61 @@
+.introText h1 {
+  color: #393E46;
+  font-weight: 700;
+  font-size: 280px;
+  margin: -40px 0 0 -90px;
+  padding: 0;
+  letter-spacing: -0.02em;
+  mix-blend-mode: screen;
+  opacity: 0.5;
+
+}
+
+/* Rafael Quintanilha text */
+.introText h2 {
+  color: var(--lightWhite);
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 96px;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.introText hr {
+  width: 120px;
+  border: 2px solid #00ADB5;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.introText p {
+  color: var(--lightWhite);
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.introText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0;
+  position: relative;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0;
+  position: absolute;
+  top: 300px;
+  left: -50px;
+}
+
+
+.profile_pic {
+  position: absolute;
+  width: 400px;
+  left: 560px;
+  top: 145px;
+}
