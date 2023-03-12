@@ -10,9 +10,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   width: 100%;
+}
+
+a, a:visited, a[href^="mailto:"] {
+  text-decoration: none;
+  color: inherit;
 }

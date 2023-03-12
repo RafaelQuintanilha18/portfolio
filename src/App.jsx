@@ -1,15 +1,31 @@
-import React from 'react'
-import TopSection from '../components/Header/MainContent/HeroContent'
-import Hero from '../components/Hero'
-import './App.css'
+import React, { useState } from 'react';
+import Navbar from '/components/Navbar';
+import HeroContent from '/components/HeroContent';
+import HeroContact from '/components/HeroContact';
+import AboutMe from '/components/AboutMe';
+import Skills from '/components/Skills';
+import Portfolio from '/components/Portfolio';
+import Footer from '/components/Footer';
+import './App.css';
 
-function App() {
+export default function App() {
+
+
 
   return (
-   <div>
-    <Hero />
-   </div>
+    <div>
+      <div className="container">
+        <Navbar />
+        <div className="topSection">
+          <HeroContent />
+          <HeroContact />
+        </div>
+        <AboutMe />
+        <img src="src/assets/triangle.png" alt="" id='triangle' />
+      </div>
+      <Skills />
+      <Portfolio />
+      <Footer />
+    </div>
   )
 }
-
-export default App
