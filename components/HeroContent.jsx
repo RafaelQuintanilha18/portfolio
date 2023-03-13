@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroContent.css'
+import profilePicture from '../src/assets/portfolio_profile.png'
 
 export default function heroContent() {
   return (
@@ -11,7 +12,7 @@ export default function heroContent() {
           <hr />
           <p>Front-end Developer</p>
         </div>
-        <img className="profile_pic" src="../src/assets/portfolio_profile.png" alt="" />
+        <img className="profile_pic" src={profilePicture} alt="" />
       </div>
 
   )
