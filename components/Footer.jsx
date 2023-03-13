@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import footerImg from '../src/assets/footer-img.png'
 
 export default function Footer() {
   const buttonRef = useRef(null);
@@ -35,7 +36,7 @@ export default function Footer() {
           <a href="mailto:rafael.quintanilha18@gmail.com"><div className="polygon"><i class="fa-solid fa-envelope"></i></div></a>
         </div>
       </div>
-      <img src="src/assets/footer-img.png" alt="" className="footer--triangle" />
+      <img src={footerImg} alt="" className="footer--triangle" />
       <button onClick={topFunction} ref={buttonRef} id="topBtn" title='Go to Top'><i class="fa-solid fa-arrow-up"></i></button>
     </div>
   );
