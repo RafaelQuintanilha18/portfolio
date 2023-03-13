@@ -5,7 +5,7 @@ export default function skills() {
     <div className='skills'>
       <div className="skills--title">
         <h1>Skills</h1>
-        <h2>Skills</h2>
+        <h2 id='skillsSection'>Skills</h2>
       </div>
       <div className='skills--badges'>
         <div className='badges'>

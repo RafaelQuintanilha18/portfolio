@@ -27,7 +27,7 @@ export default function Footer() {
   return (
     <div className='footer'>
       <div className="footer--text">
-        <h1>Contact Me</h1>
+        <h1 id='contactSection'>Contact Me</h1>
         <p>Feel free to email<br /> or reach out on LinkedIn or GitHub</p>
         <div className="footer--icons">
           <a href="https://www.linkedin.com/in/rafael-quintanilha/" target="_blank"><div className="polygon"><i class="fa-brands fa-linkedin-in"></i></div></a>

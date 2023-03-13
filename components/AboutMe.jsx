@@ -6,7 +6,7 @@ export default function aboutMe() {
     <div className='aboutme'>
       <div className="aboutme--title">
         <h1>About Me</h1>
-        <h2>About Me</h2>
+        <h2 id='aboutmeSection'>About Me</h2>
       </div>
         <p>I'm a Front-end Developer with a curious and proactive mindset. I found my passion
             for front-end development when I realized how much I cared for all the pixels, the

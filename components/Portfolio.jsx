@@ -9,7 +9,7 @@ export default function Portfolio() {
     <div className='portfolio'>
       <div className="portfolio--title">
         <h1>Portfolio</h1>
-        <h2>Portfolio</h2>
+        <h2 id='portfolioSection'>Portfolio</h2>
       </div>
 
       <div className="portfolio--container">

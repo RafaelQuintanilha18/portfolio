@@ -10,6 +10,11 @@
 
 .navbar li {
   list-style: none;
+  z-index: 99;
+}
+
+.navbar li:hover {
+  color: #00ADB5;
 }
 
 #btn--download {
@@ -22,9 +27,72 @@
   height: 40px;
   border: none;
   margin-left: 60px;
+  cursor: pointer;
 }
 
-.fa-download {
+.btn--slide {
+  position: relative;
+  display: inline-block;
+  height: 40px;
+  width: 220px;
+  line-height: 40px;
+  padding: 0;
+  border-radius: 50px;
+  background: #393E46;
+  border: 2px solid #00ADB5;
+  transition: .5s;
   margin-left: 50px;
+}
+
+.btn--slide:hover{
+  background-color: #00ADB5;
+}
+
+.btn--slide:hover span.circle {
+  left: 100%;
+  margin-left: -35px;
+  background-color: #fff;
+  color: #00ADB5;
+}
+
+.btn--slide:hover span.title {
+  left: 40px;
+  opacity: 0;
+}
+
+.btn--slide:hover span.title-hover {
+  opacity: 1;
+  left: 60px;
+  color: #fff;
+}
+
+.btn--slide span.circle {
+  display: block;
+  background-color: #00ADB5;
+  color: #fff;
+  position: absolute;
+  float: left;
+  margin: 5px;
+  line-height: 31px;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  border-radius: 50%;
+}
+
+.btn--slide span.title, .btn--slide span.title-hover {
+  position: absolute;
+  left: 55px;
+  text-align: center;
+  margin: 0 auto;
   font-size: 0.9rem;
+  font-weight: 600;
+  transition: .5s;
+}
+
+.btn--slide span.title-hover {
+  left: 80px;
+  opacity: 0;
 }

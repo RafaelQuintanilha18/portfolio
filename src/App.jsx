@@ -21,8 +21,8 @@ export default function App() {
           <HeroContact />
         </div>
         <AboutMe />
-        <img src="src/assets/triangle.png" alt="" id='triangle' />
       </div>
+        <img src="src/assets/triangle.png" alt="" id='triangle' />
       <Skills />
       <Portfolio />
       <Footer />
