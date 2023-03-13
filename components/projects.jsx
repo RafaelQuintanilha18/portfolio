@@ -1,6 +1,6 @@
 export default [
   {
-    imageSrc: "src/assets/projects/portfoliowebsite.png",
+    imageSrc: "/projects/portfoliowebsite.png",
     title: "My Portfolio",
     description: (
       <>
@@ -11,7 +11,7 @@ export default [
     codeLink: "https://github.com/RafaelQuintanilha18/portfolio",
   },
   {
-    imageSrc: "src/assets/projects/memeGen.jpg",
+    imageSrc: "/projects/memeGen.jpg",
     title: "Meme Generator",
     description: (
       <>
@@ -24,7 +24,7 @@ export default [
     codeLink: "https://github.com/RafaelQuintanilha18/react-MemeGenerator",
   },
   {
-    imageSrc: "src/assets/projects/PersonalDashboardApp.jpg",
+    imageSrc: "/projects/PersonalDashboardApp.jpg",
     title: "Personal Dashboard",
     description: (
       <>
@@ -37,7 +37,7 @@ export default [
     codeLink: "https://github.com/RafaelQuintanilha18/javascript-personalDashboard-app",
   },
   {
-    imageSrc: "src/assets/projects/thecolorpickerapp.png",
+    imageSrc: "/projects/thecolorpickerapp.png",
     title: "The Colro Picker App",
     description: (
       <>
@@ -50,7 +50,7 @@ export default [
     codeLink: "https://github.com/RafaelQuintanilha18/javascript-color-scheme-app",
   },
   {
-    imageSrc: "src/assets/projects/placeholder.png",
+    imageSrc: "/projects/placeholder.png",
     title: "",
     description: (
       <>
@@ -61,7 +61,7 @@ export default [
     codeLink:"",
   },
   {
-    imageSrc: "src/assets/projects/placeholder.png",
+    imageSrc: "/projects/placeholder.png",
     title: "",
     description: (
       <>
