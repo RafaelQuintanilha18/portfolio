@@ -7,7 +7,7 @@ import Skills from '/components/Skills';
 import Portfolio from '/components/Portfolio';
 import Footer from '/components/Footer';
 import './App.css';
-import triangle from '../src/assets/triangle.png';
+
 
 export default function App() {
 
@@ -23,7 +23,6 @@ export default function App() {
         </div>
         <AboutMe />
       </div>
-        <img src={triangle} alt="" id='triangle' />
       <Skills />
       <Portfolio />
       <Footer />

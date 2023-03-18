@@ -1,10 +1,25 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import './Navbar.css'
 
 export default function Navbar() {
+
+  const [stickyClass, setStickClass] = useState('');
+
+  useEffect(() => {
+    window.addEventListener('scroll', stickNavbar)
+    return () => window.removeEventListener('scroll', stickNavbar)
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined ) {
+      let windowHeight = window.scrollY
+      windowHeight > 300 ? setStickClass('navbar-fixed') : setStickClass('');
+    }
+  };
+
   return (
     <div>
-      <ul className="navbar">
+      <ul className={`navbar ${stickyClass}`}>
         <a href="#aboutmeSection"><li>About Me</li></a>
         <a href="#skillsSection"><li>Skills</li></a>
         <a href="#portfolioSection"><li>Portfolio</li></a>
@@ -12,7 +27,7 @@ export default function Navbar() {
       <a href="https://drive.google.com/file/d/1i_gyCMmuuRimosrzEDSB5zfg920J832-/view?usp=share_link" target="_blank" className="btn--slide">
         <span className="circle"><i class="fa fa-download"></i></span>
         <span className="title">DOWNLOAD MY CV</span>
-        <span className="title-hover">CLICK HERE!</span>
+        <span className="title-hover">THANK YOU! </span>
       </a>
       </ul>
 
