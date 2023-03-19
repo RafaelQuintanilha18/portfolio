@@ -164,19 +164,16 @@
 }
 
 .portfolio--container {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin: 150px 0 250px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: 400px;
+  gap: 2em;
+  margin: 9.375em 9em 15em;
 }
 
 .portfolio--card {
-  width: 300px;
-  height: 350px;
+  min-height: 400px;
   position: relative;
-  flex-basis: 25% /* maybe need to use pxl */
-  /* flex-grow: 1; */
 }
 
 
@@ -186,6 +183,7 @@
   height: 100%;
   border-radius: 24px;
   /* object-fit: none; */
+  /* object-fit: cover; */
 }
 
 .portfolio--overlay {
@@ -316,9 +314,6 @@
     top: -1%;
   }
 
-  .portfolio--card {
-    flex-basis: 85%;
-  }
   .footer--triangle {
     width: 430px;
   }
