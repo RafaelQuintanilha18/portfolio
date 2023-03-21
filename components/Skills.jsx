@@ -40,9 +40,6 @@ export default function skills() {
           <img src={bootstraptIcon} alt="" />
           <p>Bootstrap</p>
         </div>
-      </div>
-
-      <div className='skills--badges lastrow'>
         <div className='badges'>
           <img src={htmlIcon} alt="" />
           <p>HTML</p>

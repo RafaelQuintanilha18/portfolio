@@ -4,7 +4,7 @@ export default [
     title: "My Portfolio",
     description: (
       <>
-        My portfolio website where I can share my projects, my GitHub repositories and a little bit about me. Used Figma for design and built it with React JS and lot of CSS. :)
+        My portfolio website where I can share my projects, my GitHub repositories and a little bit about me. Built it with React JS, JavaScript, CSS, CSS animations and responsive design.
       </>
     ),
     liveLink: "",
