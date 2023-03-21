@@ -1,47 +1,51 @@
 .navbar {
   display: flex;
-  gap: 70px;
+  gap: 4.37em;
   justify-content: center;
   align-items: center;
   color: var(--lightWhite);
   margin: 0;
-  padding-top: 20px;
+  padding-top: 1em;
+  z-index: 99;
+}
+
+.navbar-fixed {
+  padding-top: 0.625em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #29313c;
+  padding-bottom: 0.625em;
+  transition: 1s;
+  color: #fff;
 }
 
 .navbar li {
   list-style: none;
-  z-index: 99;
+}
+
+.navbar li:active {
+  outline: none;
+  color: #29313c;
 }
 
 .navbar li:hover {
   color: #00ADB5;
 }
 
-#btn--download {
-  border-radius: 5px;
-  background-color: #393E46;
-  color: white;
-  font-size: 0.7rem;
-  font-weight: 600;
-  width: 200px;
-  height: 40px;
-  border: none;
-  margin-left: 60px;
-  cursor: pointer;
-}
-
 .btn--slide {
   position: relative;
   display: inline-block;
   height: 40px;
-  width: 220px;
+  min-width: 220px;
   line-height: 40px;
   padding: 0;
   border-radius: 50px;
   background: #393E46;
   border: 2px solid #00ADB5;
   transition: .5s;
-  margin-left: 50px;
+  margin-left: 3em;
 }
 
 .btn--slide:hover{
@@ -73,8 +77,8 @@
   position: absolute;
   float: left;
   margin: 5px;
-  line-height: 31px;
-  height: 30px;
+  line-height: 30px;
+  height: 28px;
   width: 30px;
   top: 0;
   left: 0;
@@ -95,4 +99,70 @@
 .btn--slide span.title-hover {
   left: 80px;
   opacity: 0;
+}
+
+.download {
+  display: none;
+}
+
+/* ------ /// Burguer Menu /// ------ */
+.show {
+  display: block;
+  z-index: 99;
+}
+
+div.show {
+  display: none;
+}
+
+.navbar-burguer {
+  display: none;
+  position: relative;
+  background-color:  #393E46;
+  transition: 1s;
+  color: #fff;
+  text-align: end;
+}
+
+.burguer{
+  text-align: start;
+  padding: 0;
+  background-color: #00ADB5;
+  margin: 0;
+}
+
+.burguer li {
+  font-size: 0.9em;
+  background: #333;
+  padding: 1em;
+}
+.icon {
+  font-size: 1.5em;
+  padding: 0.5em;
+  margin: 0;
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: #00ADB5;
+}
+
+.burguer li:hover {
+  background-color: #00ADB5;
+}
+
+@media (max-width: 859px) {
+  .navbar {
+    display: none;
+  }
+  .btn--slide {
+    display: none;
+  }
+  .download {
+    display: block;
+  }
+
+  .navbar-burguer {
+    display: block;
+  }
 }

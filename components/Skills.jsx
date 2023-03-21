@@ -9,10 +9,12 @@ import cssIcon from '../src/assets/css.png'
 import rubyIcon from '../src/assets/ruby.png'
 import railsIcon from '../src/assets/rails.png'
 import mysqlIcon from '../src/assets/mysql.png'
+import triangle from '../src/assets/triangle.png';
 
 export default function skills() {
   return (
     <div className='skills'>
+      <img src={triangle} alt="" id='triangle' />
       <div className="skills--title">
         <h1>Skills</h1>
         <h2 id='skillsSection'>Skills</h2>
@@ -38,9 +40,6 @@ export default function skills() {
           <img src={bootstraptIcon} alt="" />
           <p>Bootstrap</p>
         </div>
-      </div>
-
-      <div className='skills--badges lastrow'>
         <div className='badges'>
           <img src={htmlIcon} alt="" />
           <p>HTML</p>

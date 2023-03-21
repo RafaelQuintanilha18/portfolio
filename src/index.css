@@ -13,6 +13,10 @@
   scroll-behavior: smooth;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   width: 100%;
@@ -21,4 +25,8 @@ body {
 a, a:visited, a[href^="mailto:"] {
   text-decoration: none;
   color: inherit;
+}
+
+li{
+  list-style: none;
 }

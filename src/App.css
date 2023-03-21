@@ -12,14 +12,15 @@
 #triangle {
   position: absolute;
   width: 330px;
-  top: 833px;
+  top: -330px;;
   left: 0%;
   z-index: 1;
 }
+
 .topSection {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 120px;
+  justify-content: center;
+  margin-bottom: 7.5em;
 }
 
 /* ------ /// ABOUT ME /// ------ */
@@ -29,7 +30,6 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 400px;
   justify-content: center;
 }
 
@@ -41,9 +41,11 @@
   font-size: 6.25rem;
   margin: 0;
   position: absolute;
-  left: 35%;
-  top: -19%;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
   z-index: 3;
+  width: 100%;
 }
 
 .aboutme--title h2 {
@@ -53,15 +55,18 @@
   font-weight: 700;
   margin: 0;
   position: absolute;
-  left: 40%;
-  top: -11%;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
   z-index: 3;
+  width: 100%;
 }
 
 .aboutme p {
   text-align: justify;
-  margin: 0;
-  padding: 15%;
+  margin: 9em;
+  line-height: 1.8;
+  width: 50%;
   z-index: 2;
 }
 
@@ -69,12 +74,9 @@
 .skills {
   background-color: #222831;
   display: flex;
-  flex-direction: column;
   align-items: center;
   position: relative;
-  height: 500px;
   justify-content: center;
-
 }
 
 .skills--title h1 {
@@ -85,8 +87,9 @@
   font-size: 6.25rem;
   margin: 0;
   position: absolute;
-  left: 43%;
-  top: -80px;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
   z-index: 3;
 }
 
@@ -97,26 +100,24 @@
   font-weight: 700;
   margin: 0;
   position: absolute;
-  left: 46%;
-  top: -50px;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
   z-index: 3;
 }
 
 .skills--badges {
-  display: flex;
-  gap: 80px;
-  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3em;
+  margin: 9em;
 }
 
 .skills--badges img {
   width: 80px;
 }
 .skills--badges p {
-  margin: -7px 0 0px 0;
-}
-
-.lastrow {
-  margin-top: 40px;
+  margin: -7px 0 0;
 }
 
 .badges:hover {
@@ -141,8 +142,9 @@
   font-size: 6.25rem;
   margin: 0;
   position: absolute;
-  left: 38%;
-  top: -78px;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
 }
 
 .portfolio--title h2 {
@@ -152,35 +154,33 @@
   font-weight: 700;
   margin: 0;
   position: absolute;
-  left: 42%;
-  top: -50px;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
 }
 
 .portfolio p {
   text-align: justify;
   margin: 0;
-  padding: 15%;
 }
 
 .portfolio--container {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin: 150px 0 250px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: 400px;
+  gap: 2em;
+  margin: 9.375em 9em 15em;
 }
 
 .portfolio--card {
-  width: 300px;
-  height: 350px;
+  min-height: 400px;
   position: relative;
-  flex-basis: 25%;
 }
 
 .portfolio--img {
   width: 100%;
   height: 100%;
-  border-radius: 24px;
+  border-radius: 28px;
 }
 
 .portfolio--overlay {
@@ -191,13 +191,12 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #408c99;
+  background-color: #222831;
   border-radius: 24px;
 }
 
 .portfolio--overlay:hover {
   opacity: 0.97;
-
 }
 
 .portfolio--info {
@@ -206,32 +205,33 @@
 
 .portfolio--info p {
   margin: 0;
-  padding: 5px 10px;
+  padding: 0.3em 0.6em;
+}
+
+.portfolio--btn-container {
+  display: flex;
+  gap: 1.8em;
+  justify-content: center;
 }
 
 .portfolio--btn {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  margin-top: 15px;
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  padding: 0;
+  color: #00ADB5;
+  font-size: 1.1rem;
 }
 
-.portfolio--btn button {
-	background:linear-gradient(to bottom, #599bb3 5%, #00ADB5 100%);
-	background-color:#599bb3;
-	border-radius:8px;
-	cursor:pointer;
-	color:#ffffff;
-	font-weight:bold;
-	padding:7px 10px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
+.portfolio--btn:hover {
+  color: white;
+  transition: 1s;
 }
 
-.portfolio--btn button:hover {
-  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
-}
 
 /* ------ /// FOOTER /// ------ */
 .footer {
@@ -241,7 +241,6 @@
   align-items: center;
   position: relative;
   height: 200px;
-
 }
 
 .footer--triangle {
@@ -265,7 +264,7 @@
 
 .footer--icons {
   display: flex;
-  gap: 20px;
+  gap: 1.25em;
   justify-content: center;
 }
 
@@ -287,5 +286,109 @@
 }
 
 #topBtn:hover {
-  background-color: #555;
+  background-color: #1D222A;
+}
+
+
+/* ------ /// MEDIA QUERIES /// ------ */
+
+@media (max-width: 1208px){
+  .introText h1  {
+    font-size: 16rem;
+  }
+  .introText h2  {
+    font-size: 3rem;
+  }
+  .profile_pic {
+    top: 65%;
+  }
+}
+
+@media (max-width: 1100px){
+  .introText h1  {
+    font-size: 15rem;
+  }
+  .introText h2  {
+    font-size: 2.8rem;
+  }
+  .profile_pic {
+    top: 65%;
+  }
+  #triangle {
+    width: 230px;
+    top: -42.5%;
+  }
+}
+
+@media (max-width: 1029px) {
+    .hero-contact {
+    display: none;
+  }
+  .topSection {
+    justify-content: center;
+  }
+  .profile_pic {
+    top: 65%;
+    width: 38%;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 900px) {
+  #triangle {
+    width: 180px;
+    top: -33%;
+  }
+  .introText h1  {
+    font-size: 11rem;
+  }
+  .introText h2  {
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width: 650px) {
+
+  .introText h1 {
+    font-size: 9rem;
+  }
+  .introText h2 {
+    font-size: 1.8rem;
+  }
+  .introText p {
+    font-size: 1rem;
+  }
+  .profile_pic {
+    left: 87%;
+    top: 70%;
+  }
+
+  .aboutme--title h1, .skills--title h1, .portfolio--title h1 {
+    font-size: 5.75rem;
+  }
+
+  .aboutme--title h2, .skills--title h2, .portfolio--title h2 {
+    font-size: 3.5rem;
+  }
+
+  .aboutme p {
+    width: 80%;
+  }
+
+  .skills--badges {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+
+  }
+
+  #triangle {
+    display: none;
+  }
+
+  .footer--triangle {
+    width: 430px;
+  }
+  .footer--text {
+    top: 0px;
+  }
 }

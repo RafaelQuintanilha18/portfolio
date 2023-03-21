@@ -9,9 +9,9 @@ export default function portfolio({imageSrc, title, description, liveLink, codeL
             <div className="portfolio--info">
               <h4>{title}</h4>
               <p>{description}</p>
-              <div className="portfolio--btn">
-                <button><a href={liveLink} target="_blank"> <i class="fa-brands fa-internet-explorer"></i> Live Link</a></button>
-                <button><a href={codeLink} target="_blank"> <i class="fa-brands fa-github"></i> Code Link</a></button>
+              <div className="portfolio--btn-container">
+                <button className='portfolio--btn'><a href={liveLink} target="_blank"> <span><i class="fa-brands fa-internet-explorer"></i> Live Link</span></a></button>
+                <button className='portfolio--btn'><a href={codeLink} target="_blank"> <span><i class="fa-brands fa-github"></i> Code Link</span></a></button>
               </div>
             </div>
           </div>
