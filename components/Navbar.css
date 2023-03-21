@@ -106,12 +106,8 @@
 }
 
 /* ------ /// Burguer Menu /// ------ */
-.show {
-  display: block;
-  z-index: 99;
-}
 
-div.show {
+.showMenu {
   display: none;
 }
 
@@ -161,7 +157,6 @@ div.show {
   .download {
     display: block;
   }
-
   .navbar-burguer {
     display: block;
   }

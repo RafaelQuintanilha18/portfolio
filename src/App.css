@@ -392,3 +392,29 @@
     top: 0px;
   }
 }
+
+
+@media (max-width: 400px) {
+
+  .introText h1 {
+    font-size: 7rem;
+  }
+  .introText h2 {
+    font-size: 1.3rem;
+  }
+  .introText p {
+    font-size: 1rem;
+  }
+  .profile_pic {
+    left: 85%;
+    top: 70%;
+  }
+
+  .aboutme--title h1, .skills--title h1, .portfolio--title h1 {
+    font-size: 4.5rem;
+  }
+
+  .aboutme--title h2, .skills--title h2, .portfolio--title h2 {
+    font-size: 3.1rem;
+  }
+}
