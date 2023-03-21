@@ -44,7 +44,7 @@ export default function Navbar() {
         <div onClick={toggleNavbar} className="icon">
         <i className="fa-solid fa-bars"></i>
         </div>
-        <div onClick={toggleNavbar} className={showMenu ? 'show' : ''}>
+        <div onClick={toggleNavbar} className={showMenu ? 'showMenu' : ''}>
           <ul className="burguer">
             <li><a href="#aboutmeSection">About Me</a></li>
             <li><a href="#skillsSection">Skills</a></li>
