@@ -394,7 +394,7 @@
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 499px) {
 
   .introText h1 {
     font-size: 7rem;

@@ -4,7 +4,7 @@ import './Navbar.css'
 export default function Navbar() {
 
   const [stickyClass, setStickClass] = useState('');
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
   useEffect(() => {
     window.addEventListener('scroll', stickNavbar)

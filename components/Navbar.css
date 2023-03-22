@@ -107,9 +107,7 @@
 
 /* ------ /// Burguer Menu /// ------ */
 
-.show {
-  display: none;
-}
+
 
 .navbar-burguer {
   display: none;
@@ -146,6 +144,12 @@
 .burguer li:hover {
   background-color: #00ADB5;
 }
+
+.show {
+  display: none;
+}
+
+
 
 @media (max-width: 859px) {
   .navbar {
