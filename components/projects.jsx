@@ -4,7 +4,9 @@ export default [
     title: "My Portfolio",
     description: (
       <>
-        My portfolio website where I can share my projects, my GitHub repositories and a little bit about me. Built it with React JS, JavaScript, CSS, CSS animations and responsive design.
+        My portfolio website where I can share my projects, my GitHub repositories and a little bit about me.
+        <br /><br />
+        Built it with React JS, JavaScript, CSS, CSS animations and responsive design.
       </>
     ),
     liveLink: "",
