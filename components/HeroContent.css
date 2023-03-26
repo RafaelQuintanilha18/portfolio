@@ -75,6 +75,12 @@
   clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
 }
 
+.hero-contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+}
+
 .polygon:hover {
   animation: spin 2s;
   color: #00ADB5;

@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import footerImg from '../src/assets/footer-img.png'
+import SocialMediaIcons from './SocialMediaIcons';
 
 export default function Footer() {
   const buttonRef = useRef(null);
@@ -30,11 +31,7 @@ export default function Footer() {
       <div className="footer--text">
         <h1 id='contactSection'>Contact Me</h1>
         <p>Feel free to email<br /> or reach out on LinkedIn or GitHub</p>
-        <div className="footer--icons">
-          <a href="https://www.linkedin.com/in/rafael-quintanilha/" target="_blank"><div className="polygon"><i class="fa-brands fa-linkedin-in"></i></div></a>
-          <a href="https://github.com/RafaelQuintanilha18" target="_blank"><div className="polygon"><i class="fa-brands fa-github"></i></div></a>
-          <a href="mailto:rafael.quintanilha18@gmail.com"><div className="polygon"><i class="fa-solid fa-envelope"></i></div></a>
-        </div>
+          <SocialMediaIcons className="footer--icons"/>
       </div>
       <img src={footerImg} alt="" className="footer--triangle" />
       <button onClick={topFunction} ref={buttonRef} id="topBtn" title='Go to Top'><i class="fa-solid fa-arrow-up"></i></button>
