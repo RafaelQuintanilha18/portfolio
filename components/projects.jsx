@@ -4,13 +4,29 @@ export default [
     title: "My Portfolio",
     description: (
       <>
-        My portfolio website where I can share my projects, my GitHub repositories and a little bit about me.
+        My portfolio website where I can share my projects, my GitHub repositories and a little bit about myself.
         <br /><br />
-        Built it with React JS, JavaScript, CSS, CSS animations and responsive design.
+        Built with React JS, JavaScript, CSS, CSS animations and responsive design.
       </>
     ),
     liveLink: "",
     codeLink: "https://github.com/RafaelQuintanilha18/portfolio",
+  },
+  {
+    imageSrc: "/projects/mydash.jpg",
+    title: "MyDash - Mobile App",
+    description: (
+      <>
+        A full-stack mobile app, built with Ruby on Rails, for you to keep up with everything needed to take good care of your family vehicles. Add your vehicle's maintenance and problems costs or your wishlist items and get a summary of all your expenses and future costs in a nice dashboard.
+        <br /><br />
+        Use the demo account to login:<br />
+        email: rafael@lewagon.com<br />
+        password: 123456
+
+      </>
+    ),
+    liveLink:"https://mydash-rq.herokuapp.com/",
+    codeLink:"https://github.com/RafaelQuintanilha18/MyDash",
   },
   {
     imageSrc: "/projects/memeGen.jpg",
@@ -50,17 +66,6 @@ export default [
     ),
     liveLink: "https://thecolorpickerapp-rq.netlify.app/",
     codeLink: "https://github.com/RafaelQuintanilha18/javascript-color-scheme-app",
-  },
-  {
-    imageSrc: "/projects/placeholder.png",
-    title: "",
-    description: (
-      <>
-
-      </>
-    ),
-    liveLink:"",
-    codeLink:"",
   },
   {
     imageSrc: "/projects/placeholder.png",
