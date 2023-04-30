@@ -42,6 +42,19 @@ export default [
     codeLink: "https://github.com/RafaelQuintanilha18/react-MemeGenerator",
   },
   {
+    imageSrc: "/projects/legacyleague.png",
+    title: "Legacy League",
+    description: (
+      <>
+      Legacy League it's a personal project, a website made with WordPress to organize an online gaming league to play with my friends.
+      <br /><br />
+      Built with WordPress, HTML and CSS.
+      </>
+    ),
+    liveLink: "https://www.legacyleague.online/",
+    codeLink: "",
+  },
+  {
     imageSrc: "/projects/PersonalDashboardApp.jpg",
     title: "Personal Dashboard",
     description: (
@@ -66,16 +79,5 @@ export default [
     ),
     liveLink: "https://thecolorpickerapp-rq.netlify.app/",
     codeLink: "https://github.com/RafaelQuintanilha18/javascript-color-scheme-app",
-  },
-  {
-    imageSrc: "/projects/placeholder.png",
-    title: "",
-    description: (
-      <>
-
-      </>
-    ),
-    liveLink: "",
-    codeLink: "",
   },
 ]
