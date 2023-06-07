@@ -1,5 +1,16 @@
 export default [
   {
+    imageSrc: "/projects/MyTodoList.png",
+    title: "To-Do App (React + TypeScript)",
+    description: (
+      <>
+        A To-Do App built with React JS, TypeScript, JavaScript, and CSS.
+      </>
+    ),
+    liveLink: "https://todoapp-rq.netlify.app/",
+    codeLink: "https://github.com/RafaelQuintanilha18/todoApp",
+  },
+  {
     imageSrc: "/projects/portfoliowebsite.png",
     title: "My Portfolio",
     description: (
@@ -67,17 +78,17 @@ export default [
     liveLink: "https://personal-dashboard-rq.netlify.app/",
     codeLink: "https://github.com/RafaelQuintanilha18/javascript-personalDashboard-app",
   },
-  {
-    imageSrc: "/projects/thecolorpickerapp.png",
-    title: "The Colro Picker App",
-    description: (
-      <>
-        The ColorPicker app is an awesome tool to help you find the best color scheme for your app. Integrated with The Color API, you have more than 2000 colors and 8 different color schemes to choose from.
-        <br /><br />
-        Built with HTML, CSS, APIs and vanilla JavaScript.
-      </>
-    ),
-    liveLink: "https://thecolorpickerapp-rq.netlify.app/",
-    codeLink: "https://github.com/RafaelQuintanilha18/javascript-color-scheme-app",
-  },
+  // {
+  //   imageSrc: "/projects/thecolorpickerapp.png",
+  //   title: "The Colro Picker App",
+  //   description: (
+  //     <>
+  //       The ColorPicker app is an awesome tool to help you find the best color scheme for your app. Integrated with The Color API, you have more than 2000 colors and 8 different color schemes to choose from.
+  //       <br /><br />
+  //       Built with HTML, CSS, APIs and vanilla JavaScript.
+  //     </>
+  //   ),
+  //   liveLink: "https://thecolorpickerapp-rq.netlify.app/",
+  //   codeLink: "https://github.com/RafaelQuintanilha18/javascript-color-scheme-app",
+  // },
 ]

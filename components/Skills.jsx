@@ -1,5 +1,6 @@
 import React from 'react';
 import reactIcon from '../src/assets/reactjs.png'
+import typescript from '../src/assets/typescript.png';
 import gitIcon from '../src/assets/git.png'
 import githubIcon from '../src/assets/gitlab.png'
 import jsIcon from '../src/assets/js.png'
@@ -23,6 +24,10 @@ export default function skills() {
         <div className='badges'>
           <img src={reactIcon} alt="" />
           <p>React</p>
+        </div>
+        <div className='badges'>
+          <img src={typescript} alt="" />
+          <p>TypeScript</p>
         </div>
         <div className='badges'>
           <img src={gitIcon} alt="" />
