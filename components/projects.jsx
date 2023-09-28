@@ -1,10 +1,22 @@
 export default [
   {
+    imageSrc: "/projects/upload.ai.jpg",
+    title: "Upload.AI (React + TypeScript + OpenAI)",
+    description: (
+      <>
+        A web app that leverages the power of AI to transcribe your videos and generate YouTube titles, descriptions or a summary for you. Yes, you read that right - it's like having your own personal content assistant!
+        <br /><br />Built with React, TypScript, OpenAI API, TailWind CSS, and more.
+      </>
+    ),
+    liveLink: "https://upload-ai-rq.netlify.app/",
+    codeLink: "https://github.com/RafaelQuintanilha18/upload-ai",
+  },
+  {
     imageSrc: "/projects/MyTodoList.png",
     title: "To-Do App (React + TypeScript)",
     description: (
       <>
-        A To-Do App built with React JS, TypeScript, JavaScript, and CSS.
+        A clean and minimalist To-Do App built with React, TypeScript, JavaScript, and CSS.
       </>
     ),
     liveLink: "https://todoapp-rq.netlify.app/",
@@ -78,17 +90,4 @@ export default [
     liveLink: "https://personal-dashboard-rq.netlify.app/",
     codeLink: "https://github.com/RafaelQuintanilha18/javascript-personalDashboard-app",
   },
-  // {
-  //   imageSrc: "/projects/thecolorpickerapp.png",
-  //   title: "The Colro Picker App",
-  //   description: (
-  //     <>
-  //       The ColorPicker app is an awesome tool to help you find the best color scheme for your app. Integrated with The Color API, you have more than 2000 colors and 8 different color schemes to choose from.
-  //       <br /><br />
-  //       Built with HTML, CSS, APIs and vanilla JavaScript.
-  //     </>
-  //   ),
-  //   liveLink: "https://thecolorpickerapp-rq.netlify.app/",
-  //   codeLink: "https://github.com/RafaelQuintanilha18/javascript-color-scheme-app",
-  // },
 ]

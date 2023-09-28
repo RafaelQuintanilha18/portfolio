@@ -11,6 +11,11 @@ import rubyIcon from '../src/assets/ruby.png'
 import railsIcon from '../src/assets/rails.png'
 import mysqlIcon from '../src/assets/mysql.png'
 import triangle from '../src/assets/triangle.png';
+import tailwind from '../src/assets/tailwind.png';
+import vitejs from '../src/assets/vitejs.png'
+import figma from '../src/assets/figma.png'
+import wordpress from '../src/assets/wordpress.png'
+import materialui from '../src/assets/material-ui.png'
 
 export default function skills() {
   return (
@@ -38,12 +43,20 @@ export default function skills() {
           <p>GitHub</p>
         </div>
         <div className='badges'>
-          <img src={jsIcon} alt="" />
-          <p>JavaScript</p>
+          <img src={wordpress} alt="" />
+          <p>WordPress</p>
         </div>
         <div className='badges'>
-          <img src={bootstraptIcon} alt="" />
-          <p>Bootstrap</p>
+          <img src={tailwind} alt="" />
+          <p>TailWind</p>
+        </div>
+        <div className='badges'>
+          <img src={vitejs} alt="" />
+          <p>Vite.js</p>
+        </div>
+        <div className='badges'>
+          <img src={jsIcon} alt="" />
+          <p>JavaScript</p>
         </div>
         <div className='badges'>
           <img src={htmlIcon} alt="" />
@@ -62,8 +75,16 @@ export default function skills() {
           <p>Rails</p>
         </div>
         <div className='badges'>
-          <img src={mysqlIcon} alt="" />
-          <p>MySQL</p>
+          <img src={figma} alt="" />
+          <p>Figma</p>
+        </div>
+        <div className='badges'>
+          <img src={bootstraptIcon} alt="" />
+          <p>Bootstrap</p>
+        </div>
+        <div className='badges'>
+          <img src={materialui} alt="" />
+          <p>Material UI</p>
         </div>
       </div>
     </div>

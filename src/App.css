@@ -62,13 +62,37 @@
   width: 100%;
 }
 
-.aboutme p {
-  text-align: justify;
-  margin: 9em;
-  line-height: 1.8;
-  width: 50%;
-  z-index: 2;
+.aboutme h3 {
+  text-align: center;
 }
+
+.aboutme--container, .aboutme--skills, .aboutme--whatMovesMe {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  z-index: 2;
+  /* width: 70%; */
+  line-height: 1.8;
+  max-width: 1200px;
+  margin: 0 4em;
+}
+
+.aboutme--container{
+  margin-top: 6em;
+}
+.aboutme--container h3 {
+  text-align: center;
+}
+
+.aboutme--whatMovesMe {
+  margin-bottom: 6em;
+  flex-direction: column;
+}
+
+.aboutme--skills {
+  gap: 3em;
+}
+
 
 /* ------ /// SKILLS /// ------ */
 .skills {
@@ -294,6 +318,11 @@
 
 /* ------ /// MEDIA QUERIES /// ------ */
 
+@media (max-width: 1600px) {
+  #triangle {
+    display: none;
+  }
+}
 @media (max-width: 1208px){
   .introText h1  {
     font-size: 16rem;
@@ -316,10 +345,6 @@
   .profile_pic {
     top: 65%;
   }
-  #triangle {
-    width: 230px;
-    top: -42.5%;
-  }
 }
 
 @media (max-width: 1029px) {
@@ -337,14 +362,17 @@
 
 @media (min-width: 651px) and (max-width: 900px) {
   #triangle {
-    width: 180px;
-    top: -33%;
+    display: none;
   }
   .introText h1  {
     font-size: 11rem;
   }
   .introText h2  {
     font-size: 2rem;
+  }
+  .aboutme--skills {
+    flex-direction: column;
+    gap: 0;
   }
 }
 
@@ -373,10 +401,6 @@
     font-size: 3.5rem;
   }
 
-  .aboutme p {
-    width: 80%;
-  }
-
   .skills--badges {
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
@@ -392,6 +416,10 @@
   }
   .footer--text {
     top: 0px;
+  }
+  .aboutme--skills {
+    flex-direction: column;
+    gap: 0;
   }
 }
 
@@ -411,11 +439,9 @@
     left: 85%;
     top: 70%;
   }
-
   .aboutme--title h1, .skills--title h1, .portfolio--title h1 {
     font-size: 4.5rem;
   }
-
   .aboutme--title h2, .skills--title h2, .portfolio--title h2 {
     font-size: 3.1rem;
   }
