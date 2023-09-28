@@ -8,7 +8,7 @@ export default [
         <br /><br />Built with React, TypScript, OpenAI API, TailWind CSS, and more.
       </>
     ),
-    liveLink: "https://upload-ai-rq.netlify.app/",
+    liveLink: "https://upload--ai-2374862599b8.herokuapp.com/",
     codeLink: "https://github.com/RafaelQuintanilha18/upload-ai",
   },
   {
