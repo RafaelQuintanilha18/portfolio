@@ -8,7 +8,7 @@ export default [
         <br /><br />Built with React, TypScript, OpenAI API, TailWind CSS, and more.
       </>
     ),
-    liveLink: "https://upload-ai-swart.vercel.app/",
+    liveLink: "git /NLWAI.mp4",
     codeLink: "https://github.com/RafaelQuintanilha18/upload-ai",
   },
   {
@@ -63,19 +63,6 @@ export default [
     ),
     liveLink: "https://react-memegenerator-rq.netlify.app/",
     codeLink: "https://github.com/RafaelQuintanilha18/react-MemeGenerator",
-  },
-  {
-    imageSrc: "/projects/legacyleague.png",
-    title: "Legacy League",
-    description: (
-      <>
-      Legacy League it's a personal project, a website made with WordPress to organize an online gaming league to play with my friends.
-      <br /><br />
-      Built with WordPress, HTML and CSS.
-      </>
-    ),
-    liveLink: "https://www.legacyleague.online/",
-    codeLink: "",
   },
   {
     imageSrc: "/projects/PersonalDashboardApp.jpg",
